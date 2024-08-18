@@ -11,7 +11,8 @@
 		"lint": "eslint --ext .astro,.ts,.js,.tsx .",
 		"lint:fix": "eslint --ext .astro,.ts,.js,.tsx . --fix",
 		"format": "prettier --write src",
-		"format:check": "prettier --check src"
+		"format:check": "prettier --check src",
+		"commit": "sui-mono commit"
 	},
 	"dependencies": {
 		"@astrojs/check": "0.9.2",
