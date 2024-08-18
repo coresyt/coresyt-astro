@@ -1,0 +1,22 @@
+---
+import "$/styles/fonts.css";
+import { ViewTransitions } from "astro:transitions";
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props as Props;
+---
+
+<html lang="en" transition:animate="none">
+  <head>
+    <title>{title}</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <ViewTransitions />
+  </head>
+  <body class="">
+    <slot />
+  </body>
+</html>

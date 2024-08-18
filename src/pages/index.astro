@@ -1,0 +1,19 @@
+---
+import Layout from "$/layout/Layout.astro";
+import type { GithubAPiRes } from "$/types";
+const res = await fetch("/api/github");
+const data = (await res.json()) as GithubAPiRes[];
+---
+
+<Layout title="CoresYT Portafolio">
+  {
+    data.map(({ name, html_url, language, stars, page }) => {
+      if (!page)
+        return (
+          <div>
+            <h3>{name} - </h3>
+          </div>
+        );
+    })
+  }
+</Layout>

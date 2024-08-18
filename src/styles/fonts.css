@@ -1,0 +1,37 @@
+/* TODO: Geist */
+@font-face {
+  font-family: "Geist";
+  src: url("/Geist/Geist-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("/Geist/Geist-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("/Geist/Geist-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+/* TODO: Geist Mono */
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/GeistMono/GeistMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/GeistMono/GeistMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/GeistMono/GeistMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
