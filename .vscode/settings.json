@@ -5,6 +5,7 @@
   "explorer.fileNesting.patterns": {
     "package.json": "pnpm-lock.yaml, package-lock.json, yarn.lock",
     ".prettierrc.mjs": ".prettierignore",
+    ".eslintrc.cjs": ".eslintignore",
     "README.md": "CONTRIBUTING.md"
   },
   "editor.linkedEditing": true,

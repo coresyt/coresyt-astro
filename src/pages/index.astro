@@ -1,7 +1,7 @@
 ---
 import Layout from "$/layout/Layout.astro";
 import type { GithubAPiRes } from "$/types";
-const res = await fetch("/api/github");
+const res = await fetch('/api/github');
 const data = (await res.json()) as GithubAPiRes[];
 ---
 
